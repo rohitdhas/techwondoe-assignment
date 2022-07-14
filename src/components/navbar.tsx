@@ -5,21 +5,21 @@ const Navbar = () => {
   return (
     <nav className="bg-white p-5 fixed top-0 left-0 right-0">
       <ul className="flex justify-evenly w-[60%] ml-auto">
-        <li>
+        <li className="hover:text-orange-500 cursor-pointer">
           About{" "}
           <FontAwesomeIcon className="text-sm ml-1" icon={faChevronDown} />
         </li>
-        <li>Job Search</li>
-        <li className="flex align items-center">
+        <li className="hover:text-orange-500 cursor-pointer">Job Search</li>
+        <li className="hover:text-orange-500 cursor-pointer">
           Candidates{" "}
           <FontAwesomeIcon className="text-sm ml-1" icon={faChevronDown} />
         </li>
-        <li className="flex align items-center">
+        <li className="hover:text-orange-500 cursor-pointer">
           Employers{" "}
           <FontAwesomeIcon className="text-sm ml-1" icon={faChevronDown} />
         </li>
-        <li>Latest News</li>
-        <li>Contact</li>
+        <li className="hover:text-orange-500 cursor-pointer">Latest News</li>
+        <li className="hover:text-orange-500 cursor-pointer">Contact</li>
       </ul>
     </nav>
   );
