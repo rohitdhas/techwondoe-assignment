@@ -3,7 +3,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white p-5 fixed top-0 left-0 right-0">
+    <nav className="bg-white p-[1.8rem] fixed top-0 left-0 right-0">
       <ul className="flex justify-evenly w-[60%] ml-auto">
         <li className="hover:text-orange-500 cursor-pointer">
           About{" "}

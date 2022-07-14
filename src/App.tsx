@@ -1,20 +1,11 @@
-import { useEffect } from "react";
-import { useClient } from "./utils/contentful";
 import Navbar from "./components/navbar";
+import HeroSection from "./components/heroSection";
 
 function App() {
-  const { client } = useClient();
-
-  useEffect(() => {
-    client
-      .getAsset("1dvHDlPNVKqPNOL3LYfkOW")
-      .then((asset) => console.log(asset))
-      .catch(console.error);
-  }, []);
-
   return (
     <div className="App">
       <Navbar />
+      <HeroSection />
     </div>
   );
 }
