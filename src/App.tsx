@@ -3,6 +3,7 @@ import HeroSection from "./components/heroSection";
 import WhyChooseUs from "./components/whyChooseUs";
 import Team from "./components/team";
 import News from "./components/news";
+import BottomSection from "./components/bottomSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <WhyChooseUs />
       <Team />
       <News />
+      <BottomSection />
     </div>
   );
 }
