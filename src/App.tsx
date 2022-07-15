@@ -4,6 +4,7 @@ import WhyChooseUs from "./components/whyChooseUs";
 import Team from "./components/team";
 import News from "./components/news";
 import BottomSection from "./components/bottomSection";
+import GetInTouch from "./components/getInTouch";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Team />
       <News />
       <BottomSection />
+      <GetInTouch />
     </div>
   );
 }
