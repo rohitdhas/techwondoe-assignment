@@ -5,6 +5,7 @@ import Team from "./components/team";
 import News from "./components/news";
 import BottomSection from "./components/bottomSection";
 import GetInTouch from "./components/getInTouch";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <News />
       <BottomSection />
       <GetInTouch />
+      <Footer />
     </div>
   );
 }
