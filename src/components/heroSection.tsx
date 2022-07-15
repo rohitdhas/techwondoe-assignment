@@ -6,11 +6,7 @@ export default function HeroSection() {
 
   return (
     <div className="mt-[4.8rem] h-[60vh] md:h-[90vh] relative">
-      <img
-        src={imgURL}
-        alt="hero"
-        className="h-full md:h-full absolute -z-10"
-      />
+      <img src={imgURL} alt="hero" className="h-full w-full absolute -z-10" />
       <img src={Line} alt="line" className="absolute right-0 -z-10 h-[100%]" />
     </div>
   );

@@ -18,13 +18,13 @@ export default function WhyChooseUs() {
   }
 
   return (
-    <div className="h-[90vh] flex align items-center justify-center flex-col">
+    <div className="h-auto md:h-[90vh] flex align items-center justify-center flex-col">
       <h2 className="text-4xl font-bold">Why Choose Us?</h2>
       <p className="text-center my-6">
         We have decades of experience, having successfully recruited across the{" "}
         <br /> globle for many years.
       </p>
-      <div className="grid grid-cols-3 align items-center justify-items-center w-[80%]">
+      <div className="grid md:grid-cols-3 align items-center justify-items-center w-[100%] md:w-[80%]">
         {data.map((item: any) => {
           return (
             <div key={item.sys.id} className="my-4 flex justify-center">

@@ -19,7 +19,7 @@ export default function News() {
   }
 
   return (
-    <div className="h-[80vh] flex justify-center align items-center">
+    <div className="h-auto md:h-[80vh] flex justify-center align items-center">
       <div className="w-[70%]">
         <div className="flex justify-between mb-10">
           <h4 className="text-3xl font-bold">Latest News</h4>
@@ -27,7 +27,7 @@ export default function News() {
             View All
           </button>
         </div>
-        <div className="flex justify-between align items-center">
+        <div className="flex flex-col md:flex-row justify-between align items-center">
           {data.map((item: any) => {
             return (
               <div key={item.sys.id}>

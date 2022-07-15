@@ -5,17 +5,17 @@ export default function Team() {
     "https://images.ctfassets.net/8eswx0dgamo3/1su5M0pZpEczPj5T83VdFQ/9f53aa6d7e01151786c0a3d0aee7437f/dylan-gillis-533818-unsplash.png";
 
   return (
-    <div className="h-[70vh] bg-[#FAE1D5] bg-opacity-[0.4] flex justify-center align items-center relative">
+    <div className="h-auto md:h-[70vh] bg-[#FAE1D5] bg-opacity-[0.4] md:flex-row flex-col flex justify-center align items-center relative">
       <img src={imgURL} alt="team" className="h-[300px] mr-[5%]" />
       <img
         src={Line}
         alt="line"
-        className="absolute left-0 top-[-5rem] h-[95%]"
+        className="hidden md:block absolute left-0 top-[-5rem] h-[95%]"
       />
       <div>
         <p className="font-bold text-[#E6692E]">Our Team</p>
         <h2 className="text-3xl font-bold my-4">A team you can trust</h2>
-        <p className="mb-6">
+        <p className="mb-6 px-4 md:px-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim <br />
           vulputate aliquam arcu .Lorem ipsum dolor sit amet, consectetur <br />
           adipiscing elit. Enim vulputate aliquam arcu .Lorem ipsum dolor sit{" "}
