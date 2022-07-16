@@ -26,19 +26,19 @@ npm run dev
 
 ### CHECKLIST
 
-[x] Each section of the homepage must be a separate react component.
+- [x] Each section of the homepage must be a separate react component.
 
-[x] Develop using Typescript.
+- [x] Develop using Typescript.
 
-[x] Use tailwindcss(preferrable) or Material UI
+- [x] Use tailwindcss(preferrable) or Material UI
 
-[x] No hardcoding of text in react app. All the content (text and images) must be coming from a Headless CMS through its API (Example API reference ).
+- [x] No hardcoding of text in react app. All the content (text and images) must be coming from a Headless CMS through its API (Example API reference ).
 
-[x] Enable theming with just 2 colors i.e primary and secondary and font family
+- [x] Enable theming with just 2 colors i.e primary and secondary and font family
 
-[x] Create Typography components for H1, H2, Paragraph
+- [x] Create Typography components for H1, H2, Paragraph
 
-[x] Use Storybook for 3 UI components
+- [x] Use Storybook for 3 UI components
 
 - Button - Primary and secondary
 
@@ -46,6 +46,6 @@ npm run dev
 
 - Sub component of the Why Choose us section with icon, title and paragraph.
 
-[x] Prettier and Linter configuration
+- [x] Prettier and Linter configuration
 
-[x] Host the page on Netlify, Vercel or another provider.
+- [x] Host the page on Netlify, Vercel or another provider.
