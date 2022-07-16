@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useClient } from '../utils/contentful';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import Services from './services';
 
 export default function WhyChooseUs() {
   const { client } = useClient();
@@ -25,15 +24,7 @@ export default function WhyChooseUs() {
       </p>
       <div className="grid md:grid-cols-3 align items-center justify-items-center w-[100%] md:w-[80%]">
         {data.map((item: any) => {
-          return (
-            <div key={item.sys.id} className="my-4 flex justify-center">
-              <FontAwesomeIcon className="text-orange-500 text-xl mr-4 mt-1" icon={faCheck} />
-              <div className="w-[65%]">
-                <h4 className="text-xl font-bold mb-4">{item.fields.title}</h4>
-                <p>{item.fields.description}</p>
-              </div>
-            </div>
-          );
+          return <Services item={item} key={item.sys.id} />;
         })}
       </div>
     </div>

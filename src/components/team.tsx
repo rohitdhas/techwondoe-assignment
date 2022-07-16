@@ -1,4 +1,5 @@
 import Line from '../assets/line2.svg';
+import Button from './button';
 
 export default function Team() {
   const imgURL =
@@ -21,9 +22,7 @@ export default function Team() {
           Enim vulputate aliquam arcu .Lorem ipsum dolor sit amet, consectetur <br />
           adipiscing elit. Enim vulputate aliquam arcu.
         </p>
-        <button className="px-4 py-2 bg-[#E6692E] hover:bg-orange-600 text-white rounded-sm">
-          Learn more
-        </button>
+        <Button label="Learn more" type="primary" />
       </div>
     </div>
   );

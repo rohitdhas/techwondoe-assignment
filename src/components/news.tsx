@@ -2,6 +2,7 @@ import { useClient } from '../utils/contentful';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Button from './button';
 
 export default function News() {
   const { client } = useClient();
@@ -22,9 +23,7 @@ export default function News() {
       <div className="w-full px-4 md:px-0 md:w-[70%]">
         <div className="flex justify-between mb-10">
           <h4 className="text-3xl font-bold">Latest News</h4>
-          <button className="px-6 py-2 bg-[#E6692E] hover:bg-orange-600 text-white rounded-sm">
-            View All
-          </button>
+          <Button label="View All" type="primary" />
         </div>
         <div className="flex flex-col md:flex-row justify-between align items-center">
           {data.map((item: any) => {
