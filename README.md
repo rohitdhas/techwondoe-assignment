@@ -1,5 +1,7 @@
 ### Installation
 
+---
+
 ```bash
 git clone https://github.com/rohitdhas/techwondoe-assignment.git
 
@@ -8,6 +10,8 @@ npm install
 ```
 
 ### Note
+
+---
 
 You'll need a `.env` file in the root directory.
 It looks like this -
@@ -20,11 +24,15 @@ REACT_APP_ACCESS_TOKEN = contentful access token
 
 ### Starting the application
 
+---
+
 ```bash
 npm run dev
 ```
 
 ### CHECKLIST
+
+---
 
 - [x] Each section of the homepage must be a separate react component.
 
