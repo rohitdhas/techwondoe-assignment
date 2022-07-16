@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="h-[35vh] bg-white flex flex-col align items-center justify-center">
-      <div className="w-[70%] flex flex-col md:flex-row justify-evenly text-sm my-auto">
+      <div className="w-[70%] grid grid-cols-2 gap-2 md:flex md:flex-row justify-evenly text-sm my-auto">
         <div className="text-[#E6692E] text-xl self-end">
           <i className="bi bi-facebook"></i>
           <i className="bi bi-linkedin mx-4"></i>
@@ -28,9 +28,7 @@ export default function Footer() {
           1010
         </div>
       </div>
-      <div className="p-4 bg-gray-300 text-center w-[100%]">
-        Copyright © 2021 - Beyond Ltd.
-      </div>
+      <div className="p-4 bg-gray-300 text-center w-[100%]">Copyright © 2021 - Beyond Ltd.</div>
     </div>
   );
 }
