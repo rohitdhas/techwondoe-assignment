@@ -1,6 +1,8 @@
-### Installation
+### Live Project Link ✨
 
----
+[Project Link](https://techwondoe-assignment.netlify.app/)
+
+### Installation
 
 ```bash
 git clone https://github.com/rohitdhas/techwondoe-assignment.git
@@ -9,9 +11,9 @@ npm install
 
 ```
 
-### Note
-
 ---
+
+### Note
 
 You'll need a `.env` file in the root directory.
 It looks like this -
@@ -22,17 +24,17 @@ REACT_APP_SPACE_ID = contentful space id
 REACT_APP_ACCESS_TOKEN = contentful access token
 ```
 
-### Starting the application
-
 ---
+
+### Starting the application
 
 ```bash
 npm run dev
 ```
 
-### CHECKLIST
-
 ---
+
+### Checklist ✅
 
 - [x] Each section of the homepage must be a separate react component.
 
